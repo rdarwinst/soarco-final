@@ -1,0 +1,4 @@
+<main class="contenido-centrado seccion">
+    <h1>Compra / venta de Inmuebles</h1>
+    <p>En <b>CONSTRUCTORA SOARCO</b>, nos dedicamos a facilitar la compra y venta de propiedades con un servicio integral y personalizado. Contamos con un equipo de profesionales altamente capacitados que te acompañarán en cada etapa del proceso, desde la búsqueda inicial hasta el cierre de la negociación. Nos enfocamos en entender tus necesidades y objetivos para ofrecerte las mejores opciones del mercado, garantizando transparencia, seguridad y eficiencia en cada transacción. Ya sea que estés buscando tu hogar ideal o desees vender tu propiedad al mejor precio, en nosotros siempre encontrarás un aliado confiable.</p>
+</main>

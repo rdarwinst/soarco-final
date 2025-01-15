@@ -1,0 +1,120 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.footer {
+    background-color: v.$negro;
+    padding: calc(v.$separacion / 2) 0;
+    margin-bottom: 0;
+
+    h3 {
+        color: v.$blanco;
+        margin-bottom: 2rem;
+        text-align: center;
+
+        @include m.tablet {
+            text-align: left;
+        }
+    }
+
+    .navegacion-footer {
+        margin: 2rem 0;
+        @include m.contenedor;
+
+        @include m.tablet {
+            @include m.grid(3)
+        }
+    }
+}
+
+.footer-menu {
+    nav {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            color: v.$blanco;
+            font-size: 1.8rem;
+            text-align: center;
+            transition: color .3s ease;
+
+            @include m.tablet {
+                text-align: left;
+            }
+
+            &:hover {
+                color: darken(v.$gris, 10);
+            }
+        }
+    }
+
+}
+
+.contenido-footer {
+    @include m.contenedor;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: .5px solid v.$blanco;
+
+    @include m.tablet {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copyright {
+        color: v.$blanco;
+        text-align: center;
+
+        @include m.tablet {
+            text-align: left;
+        }
+    }
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 2rem;
+
+    @include m.tablet {
+        margin-top: 0;
+    }
+
+    a {
+        color: v.$blanco;
+        font-size: 1.8rem;
+        transition: color .3s ease;
+
+        &:hover {
+            color: darken(v.$gris, 20);
+        }
+
+        &::before {
+            font-family: 'Font Awesome 6 Brands';
+        }
+
+        span {
+            display: none;
+        }
+
+        &[href="https://www.facebook.com/"]::before {
+            content: "\f39e";
+        }
+
+        &[href="https://www.instagram.com/"]::before {
+            content: "\f16d";
+        }
+
+        &[href="https://www.x.com/"]::before {
+            content: "\e61b";
+        }
+
+        &[href="https://www.tiktok.com/"]::before {
+            content: "\e07b";
+        }
+
+        &[href="https://www.youtube.com/"]::before {
+            content: "\f167";
+        }
+    }
+}

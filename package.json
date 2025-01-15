@@ -1,0 +1,41 @@
+{
+  "name": "constructora-soarco-sas",
+  "version": "1.0.0",
+  "description": "Proyecto de Gestion y Desarrollo Inmobiliario",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdarwinst/soarco-sas.git"
+  },
+  "keywords": [
+    "Constructora",
+    "Soarco",
+    "Empresa",
+    "Desarrollo",
+    "Inmobiliario",
+    "Gestion",
+    "Inmobiliaria",
+    "Servicios"
+  ],
+  "author": "Darwin Ramirez - @rdarwinst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdarwinst/soarco-sas/issues"
+  },
+  "homepage": "https://github.com/rdarwinst/soarco-sas#readme",
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "gulp": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.77.8",
+    "sharp": "^0.33.4"
+  }
+}
