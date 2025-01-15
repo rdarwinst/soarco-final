@@ -9,13 +9,7 @@
         <div class="contenedor contenido-video">
             <div class="barra">
                 <a href="/" class="logo">
-                    <picture>
-                        <source srcset="/build/img/logo_soarco.avif" type="image/avif">
-                        <source srcset="/build/img/logo_soarco.webp" type="image/webp">
-                        <source srcset="/build/img/logo_soarco.jpg" type="image/jpeg">
-                        <img loading="lazy" width="200" height="300" src="/build/img/logo_soarco.jpg" alt="Logo Constructura Soarco">
-                    </picture>
-                    <p>Constructora <span>Soarco SAS</span></p>
+                    <img src="build/img/logo_soarco.png" alt="Logo Soarco">
                 </a>
 
                 <div class="navegacion-principal">
