@@ -2,7 +2,7 @@
     <div class="contenedor">
         <div class="barra">
             <a href="/" class="logo">
-                <img src="/build/img/logo_soarco.png" alt="Logo Soarco">
+                <img src="/build/img/logo_soarco.png" alt="Logo Soarco" width="200">
             </a>
 
             <div class="navegacion-principal">

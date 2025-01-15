@@ -72,32 +72,24 @@
         </form>
         <div class="seccion">
             <div class="info-contacto">
+                <div class="landing-page">
+                    <h4>Landing Page</h4>
+                    <a href="http://www.constructorasoarco.com">www.constructorasoarco.com</a>
+                </div>
                 <div class="ubicacion">
                     <h4>Ubicación</h4>
-                    <div class="icono">
-                        <img src="build/img/pin.svg" alt="Icono Ubicación">
-                    </div>
-                    <p>Direccion de la empresa</p>
+                    <p>Carrera 33 No. 29-20 Bogotá</p>
                 </div>
                 <div class="telefono">
                     <h4>Teléfono</h4>
-                    <div class="icono">
-                        <img src="build/img/telefono.svg" alt="Icono Teléfono">
-                    </div>
-                    <a href="tel+57311000000" title="Llamar.">311 000 0000</a>
+                    <a href="tel:+573118651819">311 865 1819</a>
                 </div>
                 <div class="whatsapp">
                     <h4>WhatsApp</h4>
-                    <div class="icono">
-                        <img src="build/img/whatsapp.svg" alt="Icono WhatsApp">
-                    </div>
-                    <a href="wa.me/573111111111" title="Enviar un WhatsApp.">311 111 1111</a>
+                    <a href="https://wa.link/g62x24" title="Enviar un WhatsApp.">311 865 1819</a>
                 </div>
                 <div class="email">
                     <h4>Email</h4>
-                    <div class="icono">
-                        <img src="build/img/email.svg" alt="Icono Email">
-                    </div>
                     <a href="mailto:contacto@constructorasoarco.com"
                         title="Enviar un correo.">contacto@constructorasoarco.com</a>
                 </div>

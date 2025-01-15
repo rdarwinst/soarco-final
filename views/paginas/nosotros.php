@@ -110,14 +110,14 @@
 <section class="contenedor seccion fundador">
     <div class="texto">
         <h2>Sobre el Fundador</h2>
-        <p>Siempre que me preguntan sobre <strong>SOARCO</strong>, pienso en la maquinaria de mi reloj de mano. Lo observo y veo precisión, exactitud, certeza y puntualidad. Dentro de él, varios piñones se impulsan unos a otros, siempre en una sincronía sinfónica única, motivados por una pila con un solo propósito: marcar la hora exacta.</p>
-        <p>Para mí, cada piñón representa a los tres actores principales: Clientes, Desarrolladores e Inversionistas, activados por una danza de motivaciones individuales y alineados con un único objetivo: materializar un proyecto inmobiliario. SOARCO es esa chispa de energía que hace todo posible. Es quien gesta el engranaje perfecto de toda la maquinaria para cumplir su propósito.</p>
+        <blockquote>"Siempre que me preguntan sobre <strong>SOARCO</strong>, pienso en la maquinaria de mi reloj de mano. Lo observo y veo precisión, exactitud, certeza y puntualidad. Dentro de él, varios piñones se impulsan unos a otros, siempre en una sincronía sinfónica única, motivados por una pila con un solo propósito: marcar la hora exacta."</blockquote>
+        <blockquote>"Para mí, cada piñón representa a los tres actores principales: Clientes, Desarrolladores e Inversionistas, activados por una danza de motivaciones individuales y alineados con un único objetivo: materializar un proyecto inmobiliario. SOARCO es esa chispa de energía que hace todo posible. Es quien gesta el engranaje perfecto de toda la maquinaria para cumplir su propósito."</blockquote>
         <p>Carlos, fundador de SOARCO, ha dedicado los últimos 20 años a ejercer su carrera como arquitecto, liderando proyectos en el diseño y la construcción. Ha sido director de proyectos en dos empresas: una ubicada en Bogotá, donde mantuvo relaciones comerciales con Italia, y otra con sede en Miami, estableciendo vínculos comerciales con China.</p>
         <p>En 2014, decidió tomar su propio camino y, desde entonces, se desempeña como CEO y fundador de La Constructora SOARCO S.A.S. Es un hombre de retos y metas, con una visión que entiende que la función de construir va más allá de fabricar cajas de ladrillos. SOARCO está fundamentada en brindar bienestar a cientos de clientes que confían en sus proyectos y prosperidad a todos sus empleados y sus familias.</p>
         <p>Carlos es egresado de la Universidad Javeriana (2004). En 2008, se especializó en iluminación arquitectónica de espacios comerciales en ARTEMIDE S.P.A. (Milán). Sus trabajos han sido publicados en revistas de diseño de renombre, como:</p>
         <ul>
-            <li><strong>REVISTA PROYECTO Y DISEÑO,</strong>publicación No. 50, págs. 34-39.</li>
-            <li><strong>REVISTA CASAVIVA, </strong>año 16, número 96, págs. 52-80.</li>
+            <li><strong>REVISTA PROYECTO Y DISEÑO,</strong> publicación No. 50, págs. 34-39.</li>
+            <li><strong>REVISTA CASAVIVA,</strong> año 16, número 96, págs. 52-80.</li>
             <li><strong>REVISTA CASAVIVA,</strong> año 17, número 99, págs. 78-85.</li>
         </ul>
     </div>

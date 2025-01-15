@@ -33,7 +33,7 @@ $inicio = $inicio ?? false;
     <?php echo $contenido; ?>    
 
     <!-- Icono de WhatsApp -->
-    <a href="https://wa.me/573111111111" class="whatsapp-button" target="_blank" aria-label="Contactar por WhatsApp"
+    <a href="https://wa.link/g62x24" class="whatsapp-button" target="_blank" aria-label="Contactar por WhatsApp"
         title="Contactar por WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
 
     <footer class="footer seccion">
