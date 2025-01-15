@@ -79,8 +79,7 @@ class PaginasController
             $mail->Host = $_ENV['EMAIL_HOST'];
             $mail->SMTPAuth = true;
             $mail->Username = $_ENV['EMAIL_USER'];
-            $mail->Password = $_ENV['EMAIL_PASS'];
-            $mail->SMTPSecure = 'tls';
+            $mail->Password = $_ENV['EMAIL_PASS'];            
             $mail->Port = $_ENV['EMAIL_PORT'];
 
             // Configurar contenido del email
@@ -162,8 +161,7 @@ class PaginasController
             $mail->Host = $_ENV['EMAIL_HOST'];
             $mail->SMTPAuth = true;
             $mail->Username = $_ENV['EMAIL_USER'];
-            $mail->Password = $_ENV['EMAIL_PASS'];
-            $mail->SMTPSecure = 'tls';
+            $mail->Password = $_ENV['EMAIL_PASS'];            
             $mail->Port = $_ENV['EMAIL_PORT'];
 
             // Configurar contenido del email
