@@ -55,7 +55,7 @@
                 <h2>Somos una gran fabrica de Imaginación <span>Hacemos Arquitectura que deleita tus sentidos y
                         optimiza tu bienestar.</span></h2>
                 <div class="mas-informacion">
-                    <a href="#proyectos" class="boton-negro">Proyectos En Ejecución <i
+                    <a href="#ultimo-proyecto" class="boton-negro">Proyectos En Ejecución <i
                             class="fa-solid fa-arrow-down"></i></a>
                     <div class="frase">
                         <blockquote>"La lógica te lleva del punto A al punto B, la imaginación te lleva a todas

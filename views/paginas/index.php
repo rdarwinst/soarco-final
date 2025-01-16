@@ -4,10 +4,27 @@
     </p>
 </div>
 
-<?php include 'listado.php'; ?>
+<?php
+
+use Model\Proyecto;
+
+$proyecto = Proyecto::where('titulo', 'Conjunto Residencial Macondo Sunset');
+?>
+<main class="ultimo-proyecto" id="ultimo-proyecto">
+    <a href="/proyecto?id=<?php echo s($proyecto->id); ?>" class="contenedor macondo">
+        <img src="/uploads/images/<?php echo s($proyecto->imagen); ?>" alt="Imagen Portada Macondo">
+        <div class="nombre-proyecto">
+            <h1><?php echo s($proyecto->titulo); ?></h1>
+        </div>
+    </a>
+</main>
+<?php
+?>
+
 <div class="contenedor alinear-derecha">
-    <a href="/proyectos" class="boton-negro w-sm-100">Ver Todos Los Proyectos</a>
+    <a href="/proyectos" class="boton-negro-block w-sm-100">Ver Más Proyectos</a>
 </div>
+
 
 <section class="testimoniales contenedor seccion">
     <h2 class="centrar-texto">Testimonios que hablan por si solos</h2>
