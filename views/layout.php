@@ -27,10 +27,10 @@ $inicio = $inicio ?? false;
 <body>
 
     <?php $header = $inicio ? 'header-home.php' : 'header.php'; ?>
-  
+
     <?php include $header; ?>
 
-    <?php echo $contenido; ?>    
+    <?php echo $contenido; ?>
 
     <!-- Icono de WhatsApp -->
     <a href="https://wa.link/g62x24" class="whatsapp-button" target="_blank" aria-label="Contactar por WhatsApp"
@@ -56,7 +56,7 @@ $inicio = $inicio ?? false;
             </div>
             <div class="footer-menu">
                 <h3>Soporte</h3>
-                <nav class="soporte">                    
+                <nav class="soporte">
                     <a href="/testimonios/crear">Opinar sobre un proyecto</a>
                     <a href="/servicio-cliente">PQRSF</a>
                 </nav>
@@ -78,6 +78,11 @@ $inicio = $inicio ?? false;
     <?php include 'ayuda.php' ?>
 
     <script src="../build/js/bundle.min.js"></script>
+    <?php if (isset($scripts) && is_array($scripts)): ?>
+        <?php foreach ($scripts as $script): ?>
+            <script src="<?php echo $script; ?>"></script>
+        <?php endforeach; ?>
+    <?php endif; ?>
 </body>
 
 </html>

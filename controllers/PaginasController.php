@@ -20,7 +20,8 @@ class PaginasController
         $router->render('paginas/index', [
             'proyectos' => $proyectos,
             'testimonios' => $tesimonios,
-            'inicio' => $inicio
+            'inicio' => $inicio,
+            'scripts' => ['https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js']
         ]);
     }
     public static function nosotros(Router $router)
