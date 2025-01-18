@@ -49,6 +49,8 @@ $router->get('/testimonios/crear', [TestimonioController::class, 'crear']);
 $router->post('/testimonios/crear', [TestimonioController::class, 'crear']);
 $router->get('/contacto', [PaginasController::class, 'contacto']);
 $router->post('/contacto', [PaginasController::class, 'contacto']);
+$router->post('/ayuda', [PaginasController::class, 'ayuda']);
+
 
 // Login y autenticación
 $router->get('/login', [LoginController::class, 'login']);

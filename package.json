@@ -1,41 +1,35 @@
 {
-  "name": "constructora-soarco-sas",
+  "name": "soarco",
   "version": "1.0.0",
-  "description": "Proyecto de Gestion y Desarrollo Inmobiliario",
-  "type": "module",
+  "description": "Proyecto Constructora Soarco",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "gulp build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rdarwinst/soarco-sas.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Constructora",
     "Soarco",
-    "Empresa",
-    "Desarrollo",
-    "Inmobiliario",
-    "Gestion",
+    "Constructora",
     "Inmobiliaria",
-    "Servicios"
+    "SASS",
+    "Gulp",
+    "PHP"
   ],
   "author": "Darwin Ramirez - @rdarwinst",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rdarwinst/soarco-sas/issues"
-  },
-  "homepage": "https://github.com/rdarwinst/soarco-sas#readme",
   "devDependencies": {
-    "glob": "^11.0.0",
-    "gulp": "^5.0.0",
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.0.1",
     "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^10.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-terser": "^2.1.0",
-    "sass": "^1.77.8",
-    "sharp": "^0.33.4"
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.4.49",
+    "sass": "^1.83.1"
   }
 }

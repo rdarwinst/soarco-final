@@ -12,7 +12,7 @@ $proyecto = Proyecto::where('titulo', 'Conjunto Residencial Macondo Sunset');
 ?>
 <main class="macondo" style="background-image: linear-gradient(rgb(13 13 13 / .4) 0, rgb(13 13 13 / .6) 100%), url('/uploads/images/<?php echo s($proyecto->imagen); ?>');" id="ultimo-proyecto">
     <div class="contenedor">
-        <a href="/proyecto?id=<?php echo s($proyecto->titulo); ?>">
+        <a href="/proyecto?id=<?php echo s($proyecto->id); ?>">
             <h1 class="ml2"><?php echo s($proyecto->titulo); ?></h1>
         </a>
     </div>

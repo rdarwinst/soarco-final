@@ -28,11 +28,11 @@
         <div class="contenedor-campos">
             <div class="campo">
                 <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre.">
+                <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre." required>
             </div>
             <div class="campo">
                 <label for="correo">Correo</label>
-                <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico.">
+                <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico." required>
             </div>
             <div class="campo">
                 <label for="telefono">Teléfono</label>
@@ -40,11 +40,11 @@
             </div>
             <div class="campo">
                 <label for="proyecto">Proyecto</label>
-                <input type="text" name="proyecto" id="proyecto" placeholder="Ingresa el nombre del proyecto.">
+                <input type="text" name="proyecto" id="proyecto" placeholder="Ingresa el nombre del proyecto." required>
             </div>
             <div class="campo">
                 <label for="tipo-servicio">Tipo de requerimiento</label>
-                <select name="tipo-servicio" id="tipo-servicio">
+                <select name="tipo-servicio" id="tipo-servicio" required>
                     <option value="" selected disabled>--Seleccionar--</option>
                     <option value="Peticion">Petición</option>
                     <option value="Queja">Queja</option>
@@ -55,11 +55,11 @@
             </div>
             <div class="campo">
                 <label for="asunto">Asunto</label>
-                <input type="text" name="asunto" id="asunto" placeholder="Ingresa el asunto.">
+                <input type="text" name="asunto" id="asunto" placeholder="Ingresa el asunto." required>
             </div>
             <div class="campo">
                 <label for="observaciones">Observaciones</label>
-                <textarea name="observaciones" id="observaciones" cols="20" rows="10"></textarea>
+                <textarea name="observaciones" id="observaciones" cols="20" rows="10" required></textarea>
             </div>
             <div class="campo">
                 <label for="fecha">Fecha:</label>

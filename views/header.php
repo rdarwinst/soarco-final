@@ -2,14 +2,9 @@
     <div class="contenedor">
         <div class="barra">
 
-            <div class="logos">
-                <a href="/" class="logo-soarco">
-                    <img src="/build/img/soarco-logo.svg" alt="Logo Soarco SAS" width="300">
-                </a>
-                <div class="logo-macondo">
-                    <img src="/build/img/macondo-logo.svg" alt="Logo Macondo" width="300" height="100">
-                </div>
-            </div>
+            <a href="/" class="logo-soarco">
+                <img src="/build/img/soarco-logo.svg" alt="Logo Soarco SAS" width="300">
+            </a>
 
             <div class="menu-movil">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="48" height="48" stroke-width="1.5">
@@ -30,6 +25,11 @@
                     <a href="/logout">Salir</a>
                 <?php endif; ?>
             </nav>
+
+            <div class="logo-macondo">
+                <img src="/build/img/macondo-logo.svg" alt="Logo Macondo" width="300" height="100">
+            </div>
+
         </div>
     </div>
 </header><!-- .header -->

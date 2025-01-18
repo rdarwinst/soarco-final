@@ -19,6 +19,8 @@ $inicio = $inicio ?? false;
     <title>Constructora Soarco SAS</title>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="preload" href="../build/css/app.css" as="style" onload="this.onload.null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <noscript>
         <link rel="stylesheet" href="../build/css/app.css">
     </noscript>
@@ -32,12 +34,13 @@ $inicio = $inicio ?? false;
 
     <?php echo $contenido; ?>
 
+
     <!-- Icono de WhatsApp -->
     <a href="https://wa.link/g62x24" class="whatsapp-button" target="_blank" aria-label="Contactar por WhatsApp"
         title="Contactar por WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
 
     <footer class="footer seccion">
-        <div class="navegacion-footer">
+        <div class="contenedor navegacion-footer">
             <div class="footer-menu" id="servicios">
                 <h3>Servicios</h3>
                 <nav class="categorias">
@@ -60,6 +63,11 @@ $inicio = $inicio ?? false;
                     <a href="/testimonios/crear">Opinar sobre un proyecto</a>
                     <a href="/servicio-cliente">PQRSF</a>
                 </nav>
+            </div>
+            <div class="logo-fiduoccidente">
+                <a href="https://fiduoccidente.com/" target="_blank" aria-label="Sitio Web FiduOccidente">
+                    <img src="/build/img/fiduoccidente.png" alt="Imagen Logo FiduOccidente">
+                </a>
             </div>
         </div>
         <div class="contenido-footer">

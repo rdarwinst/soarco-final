@@ -14,23 +14,23 @@
                 <legend>Información Personal</legend>
                 <div class="campo">
                     <label for="nombre">Nombre: </label>
-                    <input type="text" name="contacto[nombre]" id="nombre">
+                    <input type="text" name="contacto[nombre]" id="nombre" required>
                 </div>
                 <div class="campo">
                     <label for="telefono">Teléfono: </label>
-                    <input type="tel" name="contacto[telefono]" id="telefono">
+                    <input type="tel" name="contacto[telefono]" id="telefono" required>
                 </div>
                 <div class="campo">
                     <label for="email">Email: </label>
-                    <input type="email" name="contacto[email]" id="email">
+                    <input type="email" name="contacto[email]" id="email" required>
                 </div>
                 <div class="campo">
                     <label for="asunto">Asunto: </label>
-                    <input type="text" name="contacto[asunto]" id="asunto">
+                    <input type="text" name="contacto[asunto]" id="asunto" required>
                 </div>
                 <div class="campo">
                     <label for="mensaje">Mensaje: </label>
-                    <textarea name="contacto[mensaje]" id="mensaje" cols="20" rows="10"></textarea>
+                    <textarea name="contacto[mensaje]" id="mensaje" cols="20" rows="10" required></textarea>
                 </div>
             </fieldset>
             <fieldset>
@@ -46,20 +46,20 @@
                 <div class="contenedor-radios">
                     <div class="radio">
                         <label for="cliente">Cliente</label>
-                        <input type="radio" name="contacto[tipo]" value="cliente" id="cliente">
+                        <input type="radio" name="contacto[tipo]" value="cliente" id="cliente" required>
                     </div>
                     <div class="radio">
                         <label for="inversionista">Inversionista</label>
-                        <input type="radio" name="contacto[tipo]" value="inversionista" id="inversionista">
+                        <input type="radio" name="contacto[tipo]" value="inversionista" id="inversionista" required>
                     </div>
                     <div class="radio">
                         <label for="trabajar">Trabajar</label>
-                        <input type="radio" name="contacto[tipo]" value="trabajar" id="trabajar">
+                        <input type="radio" name="contacto[tipo]" value="trabajar" id="trabajar" required>
                     </div>
                 </div>
                 <div class="campo">
                     <label for="interes">Servicio de Interés</label>
-                    <input list="servicios" name="contacto[servicios]">
+                    <input list="servicios" name="contacto[servicios]" required>
                     <datalist id="servicios">
                         <option value="Avalúos">
                         <option value="Depósito de Propiedades">
@@ -95,12 +95,7 @@
                 </div>
             </div>
             <div class="imagen-contacto">
-                <picture>
-                    <source srcset="build/img/contacto.avif" type="image/avif">
-                    <source srcset="build/img/contacto.webp" type="image/webp">
-                    <source srcset="build/img/contacto.png" type="image/png">
-                    <img loading="lazy" width="200" height="300" src="build/img/contacto.png" alt="Imagen Contacto">
-                </picture>
+                <img src="/build/img/contacto.png" alt="Imagen Ilustración Contacto">
             </div>
         </div>
     </div>
